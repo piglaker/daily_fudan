@@ -239,6 +239,7 @@ def get_account():
     """
     获取账号信息
     """
+    print(sys_argv[1])
     uid, psw, *IYUU_TOKEN = sys_argv[1].strip().split(' ')
     return uid, psw, IYUU_TOKEN
 
